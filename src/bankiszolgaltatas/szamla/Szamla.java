@@ -5,7 +5,7 @@ import bankiszolgaltatas.BankiSzolgaltatas;
 import tulajdonos.Tulajdonos;
 
 public abstract class Szamla extends BankiSzolgaltatas{
-    private int egyenleg;
+    protected int egyenleg;
     
     public Szamla(Tulajdonos tulajdonos) {
         super(tulajdonos);

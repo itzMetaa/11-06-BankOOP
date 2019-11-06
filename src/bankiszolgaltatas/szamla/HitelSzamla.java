@@ -3,12 +3,12 @@ package bankiszolgaltatas.szamla;
 
 import tulajdonos.Tulajdonos;
 
-public abstract class HitelSzamla extends Szamla{
+public class HitelSzamla extends Szamla{
     private int hitelKeret;
     
     public HitelSzamla(Tulajdonos tulajdonos, int hitelKeret){
-    super(tulajdonos);
-    this.hitelKeret = hitelKeret;
+        super(tulajdonos);
+        this.hitelKeret = hitelKeret;
     }
     
     @Override

@@ -1,21 +1,12 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package bankoop;
 
-/**
- *
- * @author Diak
- */
+import tulajdonos.Tulajdonos;
+
 public class BankOOP {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Tulajdonos anya = new Tulajdonos("Tulnui Lunu Dumunyuk");
     }
     
 }

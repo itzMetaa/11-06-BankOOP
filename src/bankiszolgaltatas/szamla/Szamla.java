@@ -2,6 +2,7 @@
 package bankiszolgaltatas.szamla;
 
 import bankiszolgaltatas.BankiSzolgaltatas;
+import bankiszolgaltatas.kartya.Kartya;
 import tulajdonos.Tulajdonos;
 
 public abstract class Szamla extends BankiSzolgaltatas{
@@ -21,4 +22,8 @@ public abstract class Szamla extends BankiSzolgaltatas{
     }
     
     public abstract boolean kiVesz(int osszeg);
+    
+    public Kartya ujKartya(String kartyaszam){
+        return new Kartya(super.tulajdonos,this,kartyaszam);
+    }
 }

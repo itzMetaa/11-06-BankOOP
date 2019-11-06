@@ -5,7 +5,7 @@ import tulajdonos.Tulajdonos;
 
 public abstract class BankiSzolgaltatas {
     
-    private Tulajdonos tulajdonos;
+    protected Tulajdonos tulajdonos;
 
     public BankiSzolgaltatas(Tulajdonos tulajdonos) {
         this.tulajdonos = tulajdonos;
